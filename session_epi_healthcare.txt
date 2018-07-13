@@ -1,0 +1,31 @@
+medicare - govt issues for 65+ ppl
+medicaid - 
+commercial
+
+CMS - Centre of medical services
+
+Billing was started first in episource. 
+
+pcp - primary care physician
+
+Rendering provider
+
+Doctor - provider
+Patient - Member
+Insurance - Payer
+
+HHA - Home Health Assessment (provider visits to member to check the status)
+
+NP - Nurse Practitioner generally visits member on part of HHA behalf of provider.
+
+Dx - Diagnostic Code --> HCC (Hierarchy chronological code) (payer sends information to CMS, they will send DX and HCC)
+
+RAF Value is calculated based out of HCC value. It is used to calculate the money to be disbursed to payer. 
+
+Medical Record (MR) - Information about member
+
+Medical Chart Coding (MCR) - To generate the Dx value from MR.
+
+MRR - Medical record retriever
+
+Submission --> RAPS & EDPS

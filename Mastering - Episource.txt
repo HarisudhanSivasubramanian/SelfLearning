@@ -1,0 +1,37 @@
+a.Mastering
+
+1. Providers
+2. Members
+3. Locations
+
+b.CMS Data (For insights)
+
+c.Claims Data validation
+
+Business:
+
+Medical Record Retrieving
+Medical Coding
+
+Types of Retrieval:
+
+MRT
+Fax
+SFTB
+EMR
+Email
+
+Customers will provide Chase List (Provider, Member) --> provider_location_jn_c
+
+They generate Charts
+
+NPI - National Provider Information
+TIN
+Add
+Phone
+
+
+Location, Provider, Member combination will give you Chart_ID.
+
+provider_location_jn_c --> Charts (if its REL, it goes to Medical Coding) --> Location & Providers --> Distinct Location --> Melissa & Standardize --> De-dupe --> Location_ID_Master
+
